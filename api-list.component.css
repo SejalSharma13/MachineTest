@@ -1,0 +1,76 @@
+
+  
+  .blue-text {
+    color: blue;
+  }
+
+  
+  .blue-icon svg {
+    fill: blue;
+  }
+
+  
+  .search-bar {
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+  }
+
+  .filter-button {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+  }
+
+  
+  .icon-button {
+    padding: 6px;
+    color: blue;
+    text-decoration: none;
+  }
+
+ 
+ 
+  
+  /* custom.css */
+
+.navbar {
+  background-color: #808080; /* Replace with your desired grey color */
+}
+
+/* Optionally, you can change the text color of the links in the navbar */
+.navbar .navbar-nav .nav-link {
+  color: #fff; /* Replace with your desired text color */
+}
+
+/* Optionally, you can change the color of the active link */
+.navbar .navbar-nav .nav-item.active .nav-link {
+  color: #fff; /* Replace with your desired active link color */
+}
+
+/* styles.css */
+
+/* Apply styles to the odd rows (1st, 3rd, 5th, etc.) */
+.table tbody tr:nth-child(odd) {
+  background-color: #808080; /* Light color */
+}
+
+/* Apply styles to the even rows (2nd, 4th, 6th, etc.) */
+.table tbody tr:nth-child(even) {
+  background-color: #808080; /* Dark color */
+}
+
+
+
+.table {
+  border-collapse: collapse; 
+  width: 100%; 
+}
+.table th,
+.table td {
+  border: 1px solid #333; 
+  padding: 8px; 
+}
